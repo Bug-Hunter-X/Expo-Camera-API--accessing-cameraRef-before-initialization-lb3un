@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Camera` API and attempting to access the `cameraRef` object before the camera is fully initialized.  The component may render before the camera is ready, resulting in a null pointer exception or unexpected behavior. This is often masked by the asynchronous nature of the camera initialization. 
